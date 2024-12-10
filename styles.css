@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0f7fa; /* Pastel blue */
+    background-color: #e0f7fa; 
     color: #333;
     margin: 0;
     padding: 20px;
@@ -8,14 +8,14 @@ body {
 
 header {
     text-align: center;
-    background-color: #ffffff; /* White */
+    background-color: #ffffff; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
-    color: #00796b; /* Darker pastel blue */
+    color: #00796b; 
 }
 
 nav ul {
@@ -28,7 +28,7 @@ nav ul {
 nav ul li {
     margin: 0 15px;
     padding: 10px 15px;
-    background-color: #00796b; /* Darker pastel blue */
+    background-color: #00796b; 
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -36,11 +36,11 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: #004d40; /* Darker shade on hover */
+    background-color: #004d40; 
 }
 
 nav ul li.active {
-    background-color: #004d40; /* Active tab color */
+    background-color: #004d40; 
 }
 
 main {
@@ -49,7 +49,7 @@ main {
 
 .tab-content {
     display: none;
-    background-color: #ffffff; /* White */
+    background-color: #ffffff; 
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -62,4 +62,7 @@ main {
 footer {
     text-align: center;
     margin-top: 20px;
+}
+.hotlines {
+    list-style-type: none;
 }
