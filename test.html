@@ -68,15 +68,14 @@
 </head>
 <body>
     <h1>Flood Prevention and Awareness</h1>
-    <section id="enter" class="tab-content">
-        <button class="enter-button" onclick="enterSite()">Enter</button>
+    <section class="tab-content">
+        <button id="goToPage2" class="enter-button">Enter</button>
     </section>
 
     <script>
-        function enterSite() {
-            // Placeholder for future functionality
-            alert("Entering the site...");
-        }
+        document.getElementById("goToPage2").addEventListener("click", function() {
+            window.location.href = "index.html"; 
+        });
     </script>
 </body>
 </html>
